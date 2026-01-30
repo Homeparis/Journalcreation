@@ -10,10 +10,10 @@
       "id": 1,
       "title": "Architecture & Infrastructure",
       "description": "Setup technique : stack, hébergement, base de données, structure du projet",
-      "status": "Non commencé",
+      "status": "En cours",
       "parent_id": null,
       "created_at": "2026-01-30T11:41:45.041329",
-      "updated_at": "2026-01-30T11:41:45.041331",
+      "updated_at": "2026-01-30T11:45:14.477946",
       "notes": []
     },
     {
@@ -292,7 +292,25 @@
       "timestamp": "2026-01-30T11:41:45.071311",
       "type": "onboarding",
       "message": "Onboarding Zently complété - 18 tâches créées"
+    },
+    {
+      "timestamp": "2026-01-30T11:45:14.479402",
+      "type": "status_change",
+      "message": "Tâche #1 'Architecture & Infrastructure': Non commencé → En cours"
+    },
+    {
+      "timestamp": "2026-01-30T11:45:14.481973",
+      "type": "session_start",
+      "message": "Session #1 démarrée"
     }
   ],
-  "sessions": []
+  "sessions": [
+    {
+      "id": 1,
+      "started_at": "2026-01-30T11:45:14.480645",
+      "ended_at": null,
+      "summary": null,
+      "report": null
+    }
+  ]
 }
