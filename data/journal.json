@@ -1,16 +1,297 @@
 {
   "project": {
-    "name": "",
-    "description": "",
-    "created_at": null,
-    "onboarding_complete": false
+    "name": "Zently.fr",
+    "description": "Zently est un hub intelligent pour propriétaires et investisseurs immobiliers. \nCockpit de pilotage indépendant des channel managers (Airbnb, Booking, PMS).\nSe positionne comme couche de lecture, contrôle et alerte.\nCible : propriétaires en gestion semi-déléguée, investisseurs, particuliers voulant professionnaliser.",
+    "created_at": "2026-01-30T11:41:45.040100",
+    "onboarding_complete": true
   },
-  "tasks": [],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Architecture & Infrastructure",
+      "description": "Setup technique : stack, hébergement, base de données, structure du projet",
+      "status": "Non commencé",
+      "parent_id": null,
+      "created_at": "2026-01-30T11:41:45.041329",
+      "updated_at": "2026-01-30T11:41:45.041331",
+      "notes": []
+    },
+    {
+      "id": 2,
+      "title": "Système d'authentification",
+      "description": "Inscription, connexion, gestion des comptes propriétaires",
+      "status": "Non commencé",
+      "parent_id": null,
+      "created_at": "2026-01-30T11:41:45.042838",
+      "updated_at": "2026-01-30T11:41:45.042841",
+      "notes": []
+    },
+    {
+      "id": 3,
+      "title": "Dashboard Hub Central",
+      "description": "Interface principale : vue globale des biens, navigation entre modules",
+      "status": "Non commencé",
+      "parent_id": null,
+      "created_at": "2026-01-30T11:41:45.044408",
+      "updated_at": "2026-01-30T11:41:45.044412",
+      "notes": []
+    },
+    {
+      "id": 4,
+      "title": "Module Guard - Base",
+      "description": "Structure du module surveillance et alertes",
+      "status": "Non commencé",
+      "parent_id": null,
+      "created_at": "2026-01-30T11:41:45.045824",
+      "updated_at": "2026-01-30T11:41:45.045828",
+      "notes": []
+    },
+    {
+      "id": 5,
+      "title": "Guard - Détection anomalies",
+      "description": "Algorithmes de détection : revenus anormaux, activité suspecte",
+      "status": "Non commencé",
+      "parent_id": null,
+      "created_at": "2026-01-30T11:41:45.047347",
+      "updated_at": "2026-01-30T11:41:45.047350",
+      "notes": []
+    },
+    {
+      "id": 6,
+      "title": "Guard - Système d'alertes",
+      "description": "Notifications, emails, historique des alertes",
+      "status": "Non commencé",
+      "parent_id": null,
+      "created_at": "2026-01-30T11:41:45.048907",
+      "updated_at": "2026-01-30T11:41:45.048910",
+      "notes": []
+    },
+    {
+      "id": 7,
+      "title": "Module Radar - Base",
+      "description": "Structure du module veille et comparaisons",
+      "status": "Non commencé",
+      "parent_id": null,
+      "created_at": "2026-01-30T11:41:45.050490",
+      "updated_at": "2026-01-30T11:41:45.050493",
+      "notes": []
+    },
+    {
+      "id": 8,
+      "title": "Radar - Positionnement marché",
+      "description": "Comparaison avec biens similaires, tendances locales",
+      "status": "Non commencé",
+      "parent_id": null,
+      "created_at": "2026-01-30T11:41:45.051996",
+      "updated_at": "2026-01-30T11:41:45.051999",
+      "notes": []
+    },
+    {
+      "id": 9,
+      "title": "Radar - Signaux de décrochage",
+      "description": "Détection baisse de performance, alertes préventives",
+      "status": "Non commencé",
+      "parent_id": null,
+      "created_at": "2026-01-30T11:41:45.053441",
+      "updated_at": "2026-01-30T11:41:45.053445",
+      "notes": []
+    },
+    {
+      "id": 10,
+      "title": "Module CleanSync - Base",
+      "description": "Structure du module coordination prestations",
+      "status": "Non commencé",
+      "parent_id": null,
+      "created_at": "2026-01-30T11:41:45.054999",
+      "updated_at": "2026-01-30T11:41:45.055002",
+      "notes": []
+    },
+    {
+      "id": 11,
+      "title": "CleanSync - Planning & Suivi",
+      "description": "Calendrier ménages, validation passages, cohérence",
+      "status": "Non commencé",
+      "parent_id": null,
+      "created_at": "2026-01-30T11:41:45.056650",
+      "updated_at": "2026-01-30T11:41:45.056653",
+      "notes": []
+    },
+    {
+      "id": 12,
+      "title": "CleanSync - Gestion prestataires",
+      "description": "Carnet d'adresses, historique, évaluations",
+      "status": "Non commencé",
+      "parent_id": null,
+      "created_at": "2026-01-30T11:41:45.058181",
+      "updated_at": "2026-01-30T11:41:45.058183",
+      "notes": []
+    },
+    {
+      "id": 13,
+      "title": "Module Pulse - Conception",
+      "description": "Design du module financier simplifié",
+      "status": "Non commencé",
+      "parent_id": null,
+      "created_at": "2026-01-30T11:41:45.059599",
+      "updated_at": "2026-01-30T11:41:45.059601",
+      "notes": []
+    },
+    {
+      "id": 14,
+      "title": "Pulse - Revenus & Charges",
+      "description": "Suivi cash-flow, charges fixes, tendances",
+      "status": "Non commencé",
+      "parent_id": null,
+      "created_at": "2026-01-30T11:41:45.061444",
+      "updated_at": "2026-01-30T11:41:45.061453",
+      "notes": []
+    },
+    {
+      "id": 15,
+      "title": "API & Intégrations externes",
+      "description": "Connexions Airbnb, Booking, autres PMS",
+      "status": "Non commencé",
+      "parent_id": null,
+      "created_at": "2026-01-30T11:41:45.063087",
+      "updated_at": "2026-01-30T11:41:45.063089",
+      "notes": []
+    },
+    {
+      "id": 16,
+      "title": "Design UI/UX",
+      "description": "Maquettes, design system, responsive",
+      "status": "Non commencé",
+      "parent_id": null,
+      "created_at": "2026-01-30T11:41:45.064987",
+      "updated_at": "2026-01-30T11:41:45.064990",
+      "notes": []
+    },
+    {
+      "id": 17,
+      "title": "Tests & Qualité",
+      "description": "Tests unitaires, intégration, UAT",
+      "status": "Non commencé",
+      "parent_id": null,
+      "created_at": "2026-01-30T11:41:45.066693",
+      "updated_at": "2026-01-30T11:41:45.066695",
+      "notes": []
+    },
+    {
+      "id": 18,
+      "title": "Déploiement & Lancement",
+      "description": "Mise en production, monitoring, documentation",
+      "status": "Non commencé",
+      "parent_id": null,
+      "created_at": "2026-01-30T11:41:45.068593",
+      "updated_at": "2026-01-30T11:41:45.068595",
+      "notes": []
+    }
+  ],
   "events": [
     {
       "timestamp": "2026-01-30T11:34:29.169308",
       "type": "test",
       "message": "Test initial du système"
+    },
+    {
+      "timestamp": "2026-01-30T11:41:45.040794",
+      "type": "setup",
+      "message": "Projet 'Zently.fr' initialisé"
+    },
+    {
+      "timestamp": "2026-01-30T11:41:45.042212",
+      "type": "task_created",
+      "message": "Tâche ajoutée: Architecture & Infrastructure"
+    },
+    {
+      "timestamp": "2026-01-30T11:41:45.043479",
+      "type": "task_created",
+      "message": "Tâche ajoutée: Système d'authentification"
+    },
+    {
+      "timestamp": "2026-01-30T11:41:45.045057",
+      "type": "task_created",
+      "message": "Tâche ajoutée: Dashboard Hub Central"
+    },
+    {
+      "timestamp": "2026-01-30T11:41:45.046655",
+      "type": "task_created",
+      "message": "Tâche ajoutée: Module Guard - Base"
+    },
+    {
+      "timestamp": "2026-01-30T11:41:45.048108",
+      "type": "task_created",
+      "message": "Tâche ajoutée: Guard - Détection anomalies"
+    },
+    {
+      "timestamp": "2026-01-30T11:41:45.049617",
+      "type": "task_created",
+      "message": "Tâche ajoutée: Guard - Système d'alertes"
+    },
+    {
+      "timestamp": "2026-01-30T11:41:45.051216",
+      "type": "task_created",
+      "message": "Tâche ajoutée: Module Radar - Base"
+    },
+    {
+      "timestamp": "2026-01-30T11:41:45.052663",
+      "type": "task_created",
+      "message": "Tâche ajoutée: Radar - Positionnement marché"
+    },
+    {
+      "timestamp": "2026-01-30T11:41:45.054223",
+      "type": "task_created",
+      "message": "Tâche ajoutée: Radar - Signaux de décrochage"
+    },
+    {
+      "timestamp": "2026-01-30T11:41:45.055834",
+      "type": "task_created",
+      "message": "Tâche ajoutée: Module CleanSync - Base"
+    },
+    {
+      "timestamp": "2026-01-30T11:41:45.057469",
+      "type": "task_created",
+      "message": "Tâche ajoutée: CleanSync - Planning & Suivi"
+    },
+    {
+      "timestamp": "2026-01-30T11:41:45.058885",
+      "type": "task_created",
+      "message": "Tâche ajoutée: CleanSync - Gestion prestataires"
+    },
+    {
+      "timestamp": "2026-01-30T11:41:45.060327",
+      "type": "task_created",
+      "message": "Tâche ajoutée: Module Pulse - Conception"
+    },
+    {
+      "timestamp": "2026-01-30T11:41:45.062332",
+      "type": "task_created",
+      "message": "Tâche ajoutée: Pulse - Revenus & Charges"
+    },
+    {
+      "timestamp": "2026-01-30T11:41:45.063933",
+      "type": "task_created",
+      "message": "Tâche ajoutée: API & Intégrations externes"
+    },
+    {
+      "timestamp": "2026-01-30T11:41:45.065853",
+      "type": "task_created",
+      "message": "Tâche ajoutée: Design UI/UX"
+    },
+    {
+      "timestamp": "2026-01-30T11:41:45.067667",
+      "type": "task_created",
+      "message": "Tâche ajoutée: Tests & Qualité"
+    },
+    {
+      "timestamp": "2026-01-30T11:41:45.069458",
+      "type": "task_created",
+      "message": "Tâche ajoutée: Déploiement & Lancement"
+    },
+    {
+      "timestamp": "2026-01-30T11:41:45.071311",
+      "type": "onboarding",
+      "message": "Onboarding Zently complété - 18 tâches créées"
     }
   ],
   "sessions": []
