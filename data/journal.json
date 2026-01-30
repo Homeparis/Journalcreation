@@ -1,0 +1,17 @@
+{
+  "project": {
+    "name": "",
+    "description": "",
+    "created_at": null,
+    "onboarding_complete": false
+  },
+  "tasks": [],
+  "events": [
+    {
+      "timestamp": "2026-01-30T11:34:29.169308",
+      "type": "test",
+      "message": "Test initial du système"
+    }
+  ],
+  "sessions": []
+}
